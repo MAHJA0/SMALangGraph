@@ -1,0 +1,866 @@
+[
+  {
+    "tema": "Ciclo for en C++",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada de los tres componentes del ciclo for (inicialización, condición y actualización) y su definición como estructura iterativa en C++. No hay errores conceptuales ni sintáxis en la respuesta.\n\nPregunta 2: 30 de 30\nEl estudiante describe correctamente el flujo de ejecución del ciclo for (inicialización, evaluación de condición, cuerpo del ciclo y actualización) y las situaciones prácticas de uso (conocer antecesormente la cantidad de iteraciones o tener una variable de control). La explicación es completa y precisa según la rúbrica.\n\nPregunta 3: 40 de 40\nEl código y explicación del estudiante coinciden íntegramente con la respuesta esperada: el cálculo de la suma del 1 al 10 usando un ciclo for con inicialización `i=1`, condición `i<=10` y actualización `i++`, mostrando el resultado 55. No hay errores conceptuales ni sintáxis en la implementación presentada.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante describe exactamente los tres componentes del ciclo for (inicialización, condición y actualización) y su función como estructura iterativa, coincidiendo con la respuesta esperada.\n\nPregunta 2: 30 de 30\nEl estudiante explica correctamente el flujo de ejecución del ciclo for (inicialización, evaluación de condición, ejecución del cuerpo y actualización) y las situaciones de uso adecuadas, alineándose plenamente con la respuesta esperada.\n\nPregunta 3: 40 de 40\nEl código del estudiante es correcto (suma de 1 a 10 = 55) y la explicación detalla cómo funciona el ciclo (comprobación de condición, acumulación y terminación cuando i=11), coincidiendo con los criterios de la rúbrica. No hay errores conceptuales ni sintácticos en la respuesta.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: define el ciclo for como estructura iterativa y menciona los tres componentes (inicialización, condición y actualización) con precisión conceptual.\n\nPregunta 2: 30 de 30\nEl estudiante describe correctamente el proceso de ejecución del ciclo for (inicialización, evaluación de condición, cuerpo y actualización) y las situaciones de conveniencia (cantidad de iteraciones conocida o variable de control), alineándose plenamente con la respuesta esperada.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante coinciden exactamente con la respuesta esperada: el programa calcula correctamente la suma de 1 a 10, explica el flujo del ciclo y obtiene el resultado 55. No hay errores conceptuales ni sintácticos en la respuesta.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Ciclo for en C++",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"el ciclo for solamente sirve para ejecutar una instrucción una vez\", lo cual es un error conceptual fundamental ya que los ciclos for permiten ejecutar bloques de código repetidamente, no una sola instrucción. Además, menciona \"componentes: una variable, una función y una condición de salida\", pero los componentes correctos son inicialización, condición y actualización. No hay precisión conceptual ni completitud frente a la respuesta esperada.\n\nPregunta 2: 0 de 30\nEl estudiante afirma que \"un ciclo for siempre ejecuta exactamente diez iteraciones independientemente de la condición\", lo cual es incorrecto porque el número de iteraciones depende de la condición (puede ser cero, uno o más). También dice que \"se utiliza principalmente cuando necesitamos ejecutar instrucciones una sola vez\", lo cual contradice el propósito de los ciclos for (repetición, no ejecución única). Esto representa un error conceptual grave en la comprensión del funcionamiento del ciclo.\n\nPregunta 3: 0 de 40\nEl código del estudiante usa `i--` en lugar de `i++`, lo que hace que el ciclo no sume correctamente los números del 1 al 10 (en realidad, el bucle se ejecutará indefinidamente porque `i <= 10` siempre es verdadero al decrementar `i`). La explicación afirma que \"i disminuye en cada iteración\" y que \"suma los números del 1 al 10\", pero el resultado es incorrecto (el programa no termina y la suma no es 55). El error es conceptual (entendimiento incorrecto de la dirección de iteración) y sintáctico (uso de `i--` en lugar de `i++` para la suma correcta).\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante describe un ciclo for como una estructura que \"solamente sirve para ejecutar una instrucción una vez\" y menciona componentes incorrectos (\"variable, función y condición de salida\"). La respuesta esperada define claramente que el ciclo for permite ejecuciones repetidas y especifica los tres componentes correctos (inicialización, condición, actualización). Este error conceptual fundamental (confundir ciclos con ejecuciones únicas y componentes incorrectos) justifica 0 puntos.\n\nPregunta 2: 0 de 30\nEl estudiante afirma que \"un ciclo for siempre ejecuta exactamente diez iteraciones\" y lo usa \"cuando necesitamos ejecutar instrucciones una sola vez\". La respuesta esperada explica que el número de iteraciones depende de la condición y es conveniente para casos con iteraciones predefinidas o variables de control. Este error conceptual (iteraciones fijas sin dependencia de condición y uso incorrecto) justifica 0 puntos.\n\nPregunta 3: 0 de 40\nEl código del estudiante usa `i--` en lugar de `i++`, lo que hace que el ciclo no termine (la condición `i <= 10` siempre es verdadera al decrementar `i`). Además, la explicación afirma que \"suma los números del 1 al 10 porque i disminuye\", pero el código ejecuta iteraciones infinitas. La respuesta esperada requiere incrementar `i` (`i++`) para sumar correctamente del 1 al 10. Este error de sintaxis y conceptual (uso incorrecto de incremento/decremento) justifica 0 puntos.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"el ciclo for es una estructura que solamente sirve para ejecutar una instrucción una vez\" y menciona componentes como \"variable, función y condición de salida\". Esto es incorrecto porque un ciclo for es una estructura iterativa (no para una sola ejecución), y los componentes principales son inicialización, condición y actualización, no variables, funciones ni condiciones de salida. El error conceptual es fundamental y no se ajusta a la definición esperada.\n\nPregunta 2: 0 de 30\nEl estudiante indica que \"un ciclo for siempre ejecuta exactamente diez iteraciones\" y \"se utiliza principalmente cuando necesitamos ejecutar instrucciones una sola vez\". Esto es falso: el número de iteraciones depende de la condición (no siempre 10), y los ciclos for se usan para repetición, no para ejecutar instrucciones una sola vez. El error conceptual es grave y no cumple con el criterio esperado.\n\nPregunta 3: 0 de 40\nEl código del estudiante usa `i--` en lugar de `i++`, lo que hace que el ciclo no calcule correctamente la suma (sumaría valores negativos desde 1 en adelante). La explicación afirma que \"i disminuye en cada iteración\" y \"suma los números del 1 al 10\", pero el código no termina en 10 (termina cuando `i` sea menor que 1), por lo que el resultado no es 55. El error de sintaxis (`i--` en lugar de `i++`) y el error conceptual en la explicación son críticos.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Ciclo for en C++",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      15.0,
+      25.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        15.0,
+        20.0
+      ],
+      [
+        30.0,
+        0.0,
+        10.0
+      ],
+      [
+        30.0,
+        15.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 60.0,
+    "total_medio": 50.0,
+    "desviacion": 10.801234497346433,
+    "error_absoluto": 10.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nEl estudiante identificó correctamente los tres componentes principales (inicialización, condición y actualización) como se requiere en la rúbrica. Aunque su descripción de \"estructura repetitiva que permite ejecutar instrucciones varias veces\" es un poco menos específica que la esperada (que menciona explícitamente la condición como verdadera), no hay error conceptual ni omisión crítica en los componentes.\n\nPregunta 2: 15 de 30\nEl estudiante menciona correctamente una situación de uso (conocer cuántas veces ejecutar) pero omite completamente el proceso de ejecución del ciclo (inicialización, evaluación de condición, cuerpo del ciclo y actualización) y solo aborda una de las dos situaciones esperadas (la rúbrica indica dos situaciones: conocimiento de iteraciones o variable de control).\n\nPregunta 3: 20 de 40\nEl código del estudiante es funcional en estructura pero faltan las instrucciones para imprimir el resultado (cout << suma), lo que representa un error conceptual (el programa no produce la salida esperada). La explicación es correcta en concepto pero muy breve, sin describir cómo el ciclo avanza (ej: i llega a 11) ni el resultado final (55). Se recomienda añadir cout << suma y detallar el proceso de incremento y evaluación de condición.\n\nPuntuación final: 65",
+      "Pregunta 1: 30 de 30\nEl estudiante identificó correctamente los tres componentes principales del ciclo for (inicialización, condición y actualización), alineándose con la respuesta esperada aunque no especificó sus roles detallados.\n\nPregunta 2: 0 de 30\nEl estudiante solo describió situaciones en las que es conveniente usar el ciclo for, pero no explicó cómo funciona la ejecución del ciclo (inicialización, evaluación de condición, ejecución del cuerpo y actualización).\n\nPregunta 3: 10 de 40\nEl código del estudiante faltó la instrucción cout para imprimir el resultado, lo que hace el programa inutilizable. La explicación menciona la acumulación de números pero no detalla los pasos del ciclo (ej: inicio, condición, incremento).\n\nPuntuación final: 40",
+      "Pregunta 1: 30 de 30\nEl estudiante menciona correctamente los tres componentes (inicialización, condición y actualización) y describe el ciclo for como estructura repetitiva, alineándose con la respuesta esperada.\n\nPregunta 2: 15 de 30\nEl estudiante explica en qué situaciones es conveniente utilizarlo (cuando se conoce la cantidad de iteraciones) pero no describe el proceso de ejecución paso a paso (inicialización, evaluación de condición, cuerpo del ciclo y actualización), lo que representa un error de completitud conceptual.\n\nPregunta 3: 0 de 40\nEl código del estudiante no incluye la instrucción `cout` para imprimir la suma, por lo que el programa no cumple con la tarea solicitada. Además, la explicación es muy breve y no detalla cómo funciona el ciclo (ej: incremento de `i` o resultado esperado).\n\nPuntuación final: 45"
+    ]
+  },
+  {
+    "tema": "Búsqueda binaria en Python",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada, describiendo claramente la definición de búsqueda binaria y el requisito fundamental de ordenación ascendente. No hay errores conceptuales ni sintácticos.\n\nPregunta 2: 30 de 30\nEl estudiante explica correctamente los tres índices, el proceso de comparación y la reducción del espacio de búsqueda. La complejidad temporal (O(1) en mejor caso y O(log n) en peor caso) se justifica adecuadamente con la explicación de la reducción mitad a mitad. No hay errores conceptuales ni sintácticos.\n\nPregunta 3: 40 de 40\nLa implementación en Python es idéntica a la esperada: usa índices correctos, condición de bucle adecuada, operaciones de comparación y retorno de índice o -1. El comentario complementario describe el funcionamiento de la función con precisión. No hay errores conceptuales ni sintácticos.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada, describiendo claramente la búsqueda binaria y el requisito fundamental de ordenamiento ascendente para aplicar el algoritmo.\n\nPregunta 2: 30 de 30\nEl estudiante explica con precisión los tres índices, el proceso de comparación y la reducción del espacio de búsqueda, incluyendo la complejidad temporal correcta (O(1) en mejor caso y O(log n) en peor caso).\n\nPregunta 3: 40 de 40\nLa implementación en Python es correcta y completa, con lógica de búsqueda binaria iterativa que maneja adecuadamente los casos de éxito y no encontrada, coincidiendo con la descripción esperada. No hay errores conceptuales ni sintáxis.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada, mencionando claramente que la búsqueda binaria requiere que los elementos estén organizados según un orden conocido (ejemplo: ascendente) y que sin este requisito no se puede descartar correctamente una mitad de los datos en cada iteración.\n\nPregunta 2: 30 de 30\nLa explicación del estudiante describe correctamente los tres índices, el proceso de comparación y la reducción del espacio de búsqueda, incluyendo la complejidad temporal O(1) en el mejor caso y O(log n) en el peor caso, con justificación precisa sobre cómo se reduce el espacio en cada iteración.\n\nPregunta 3: 40 de 40\nLa implementación en Python del estudiante es idéntica a la esperada: define correctamente los índices, usa el bucle while con la lógica de comparación y ajuste de intervalos, y devuelve -1 cuando no se encuentra el elemento, cumpliendo con todos los criterios técnicos y conceptuales requeridos.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Búsqueda binaria en Python",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que la búsqueda binaria funciona en \"cualquier lista, independientemente de si está ordenada o desordenada\", lo cual es incorrecto. El requisito fundamental es que los datos estén ordenados (por ejemplo, ascendente), como se especifica en la rúbrica. Este es un error conceptual fundamental, ya que sin ordenación no se puede aplicar el algoritmo.\n\nPregunta 2: 0 de 30\nEl estudiante describe una búsqueda lineal (\"comienza desde el primer elemento y avanza uno por uno\") y menciona complejidades incorrectas (O(n) en mejor caso y O(1) en peor caso). La búsqueda binaria no sigue este patrón y su complejidad temporal es O(1) en mejor caso (cuando el elemento se encuentra en la primera comparación) y O(log n) en peor caso, no O(n) ni O(1).\n\nPregunta 3: 0 de 40\nEl código tiene un error conceptual crítico: al encontrar que `lista[medio] < objetivo`, el estudiante asigna `fin = medio - 1` en lugar de `inicio = medio + 1`. Esto invierte la lógica de búsqueda (debería descartar la mitad izquierda cuando el objetivo es mayor, no la derecha). La explicación del estudiante también confirma el error: \"cuando el elemento buscado es mayor que el valor central debemos buscar en la mitad izquierda\", lo cual es incorrecto (debería ser mitad derecha). El código no funciona correctamente para listas ordenadas.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que la búsqueda binaria funciona en \"cualquier lista, independientemente de si está ordenada o desordenada\", lo cual es un error conceptual fundamental. La respuesta esperada requiere que los datos estén organizados según un orden conocido (por ejemplo, ascendente), y el estudiante no menciona este requisito ni reconoce que la búsqueda binaria no funciona en listas desordenadas.\n\nPregunta 2: 0 de 30\nEl estudiante describe una búsqueda lineal (\"comienza desde el primer elemento y avanza uno por uno\") y asigna complejidades incorrectas (O(n) en mejor caso y O(1) en peor caso). La búsqueda binaria no revisa elementos uno por uno, y su complejidad temporal correcta es O(1) en mejor caso (cuando el elemento está en el medio) y O(log n) en peor caso.\n\nPregunta 3: 0 de 40\nEl código del estudiante tiene un error lógico crítico: cuando `lista[medio] < objetivo`, actualiza `fin = medio - 1` (mitad izquierda) en lugar de `inicio = medio + 1` (mitad derecha). Esto hace que el algoritmo no funcione correctamente, como explica el estudiante (\"cuando el elemento buscado es mayor que el valor central debemos buscar en la mitad izquierda\"), lo cual es opuesto a la lógica correcta de la búsqueda binaria.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que la búsqueda binaria funciona en \"cualquier lista, independientemente de si está ordenada o desordenada\", lo cual es un error conceptual fundamental. La respuesta esperada indica que el requisito es que los datos estén organizados según un orden conocido (por ejemplo, ascendente). Este error confunde la búsqueda binaria con una búsqueda lineal.\n\nPregunta 2: 0 de 30\nEl estudiante describe una búsqueda lineal (\"comienza desde el primer elemento y avanza uno por uno\") y menciona complejidades incorrectas (O(n) en mejor caso y O(1) en peor caso). La búsqueda binaria requiere un ordenamiento y su complejidad es O(1) en mejor caso (cuando el elemento está en la primera comparación) y O(log n) en peor caso.\n\nPregunta 3: 0 de 40\nLa función tiene una lógica incorrecta: cuando el elemento buscado es mayor que el valor central, el estudiante actualiza `fin = medio - 1` (mitad izquierda), pero debería actualizarse `inicio = medio + 1` (mitad derecha). Esto es un error conceptual crítico que hace que el algoritmo no funcione correctamente. La explicación adicional del estudiante (\"debemos buscar en la mitad izquierda\") refuerza el error.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Búsqueda binaria en Python",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      20.0,
+      25.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        20.0,
+        30.0
+      ],
+      [
+        30.0,
+        20.0,
+        20.0
+      ],
+      [
+        30.0,
+        20.0,
+        20.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 65.0,
+    "total_medio": 73.33333333333333,
+    "desviacion": 4.714045207910317,
+    "error_absoluto": 8.333333333333329,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nEl estudiante identificó correctamente que la búsqueda binaria divide la lista en dos partes y requiere que los datos estén ordenados, coincidiendo con el requisito fundamental esperado.\n\nPregunta 2: 20 de 30\nEl estudiante describió los pasos básicos de la búsqueda binaria pero omitió especificar la complejidad temporal en el mejor caso (O(1)), lo que representa un error conceptual. La rúbrica exige mencionar ambas complejidades.\n\nPregunta 3: 30 de 40\nLa función implementada es correcta (devuelve -1 cuando el elemento no existe), pero el estudiante cometió un error conceptual al afirmar que no se especifica el comportamiento para elementos no encontrados. La función sí devuelve -1 en ese caso. Recomendación: añadir en la descripción que \"la función devuelve -1 si el elemento no está en la lista\".\n\nPuntuación final: 80",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante menciona correctamente que la búsqueda binaria divide la lista en dos partes y requiere que los datos estén ordenados, coincidiendo con el requisito fundamental esperado.\n\nPregunta 2: 20 de 30\nEl estudiante describe el proceso de cálculo del elemento central y la comparación, pero omite especificar la complejidad temporal en el mejor caso (O(1)), lo que representa un error conceptual en la completitud requerida por la rúbrica.\n\nPregunta 3: 20 de 40\nLa función del estudiante no incluye la instrucción `return -1` para el caso en que el elemento no se encuentra, lo que es un error conceptual en la implementación. Sin embargo, el estudiante identifica correctamente este problema en su comentario, lo que justifica una puntuación parcial.\n\nPuntuación final: 70",
+      "Pregunta 1: 30 de 30\nJustificación: El estudiante menciona correctamente que la búsqueda binaria divide la lista y requiere que los datos estén ordenados, lo cual coincide con el requisito fundamental esperado.\n\nPregunta 2: 20 de 30\nJustificación: El estudiante describe el proceso básico pero omite especificar la complejidad en el mejor caso (O(1)), que es un requisito clave según la respuesta esperada.\n\nPregunta 3: 20 de 40\nJustificación: La función implementada no incluye la instrucción de retorno -1 cuando el elemento no existe, lo que es crítico para cumplir con el requisito de devolver -1 en ese caso. El estudiante reconoce el problema en su comentario.\n\nPuntuación final: 70"
+    ]
+  },
+  {
+    "tema": "Punteros en C++",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nEl estudiante definió correctamente que un puntero almacena la dirección de memoria de otro objeto, explicó que no almacena el valor directamente sino la ubicación y describió la desreferenciación con el operador *. La respuesta coincide exactamente con la respuesta esperada.\n\nPregunta 2: 30 de 30\nEl estudiante explicó claramente la diferencia entre variables normales y punteros, describió los operadores & y * y proporcionó un ejemplo correcto con `int x = 10; int* p = &x;` que muestra cómo el puntero almacena la dirección de `x` y `*p` representa su valor.\n\nPregunta 3: 40 de 40\nEl estudiante escribió un programa válido que declara una variable entera, crea un puntero con `&numero`, modifica el valor mediante `*puntero` y muestra el resultado. La explicación detalla los pasos correctamente y coincide con la respuesta esperada.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: explica que un puntero almacena la dirección de memoria de otro objeto, no el valor directo, y describe correctamente el concepto de desreferenciación con el operador *. Incluye el ejemplo específico de `*p` para acceder al valor de la variable apuntada.\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante es idéntica a la esperada: contrasta claramente las variables normales (almacenan valores) y los punteros (almacenan direcciones de memoria), y proporciona el ejemplo `int x = 10; int* p = &x;` con explicación precisa del comportamiento de `&` y `*`.\n\nPregunta 3: 40 de 40\nEl código del estudiante es exactamente el mismo que el esperado: declara `numero`, crea un puntero con `&numero`, modifica el valor mediante `*puntero` y imprime el resultado. La descripción adicional también coincide con la explicación requerida, sin errores conceptuales ni sintácticos.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: define claramente que un puntero almacena la dirección de memoria, no el valor, y explica que desreferenciar utiliza el operador *. Incluye el ejemplo con `p` y `*p` sin errores conceptuales ni sintáxis.\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante es idéntica a la esperada: compara variables normales y punteros, explica los operadores `&` y `*` con el ejemplo `int x = 10; int* p = &x;` y describe cómo `p` almacena la dirección de `x` y `*p` el valor. No hay diferencias conceptuales ni sintáxis.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante coinciden completamente con la respuesta esperada: declara `numero`, crea puntero con `&numero`, modifica el valor mediante `*puntero` y muestra el resultado. El programa funciona correctamente y la descripción detalla cada paso sin errores conceptuales ni sintáxis.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Punteros en C++",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"un puntero es una variable que almacena directamente el valor de otra variable\", lo cual es un error conceptual fundamental. Según la rúbrica, los punteros almacenan direcciones de memoria, no valores. Este error indica una confusión entre el concepto de puntero y variable normal.\n\nPregunta 2: 0 de 30\nEl estudiante describe incorrectamente los operadores: afirma que \"&\" obtiene el valor almacenado y \"*\" obtiene la dirección de memoria. La rúbrica especifica que \"&\" obtiene la dirección de memoria y \"*\" accede al valor. Este error conceptual invierte completamente el significado de los operadores.\n\nPregunta 3: 0 de 40\nEl código del estudiante contiene un error de sintaxis crítico: `int* puntero = numero;` en lugar de `int* puntero = &numero;`. La rúbrica requiere que el puntero reciba la dirección de memoria mediante el operador &, pero el estudiante asigna directamente el valor de la variable. Además, su explicación \"un puntero puede recibir directamente cualquier número entero y utilizarlo como dirección\" es incorrecta, ya que los punteros no pueden interpretar números enteros como direcciones de memoria válidas. El programa no compilaría ni funcionaría correctamente.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que un puntero almacena directamente el valor de otra variable, lo cual es incorrecto. Un puntero debe almacenar la dirección de memoria, no el valor.\n\nPregunta 2: 0 de 30\nEl estudiante confunde los operadores & y *: & se usa para obtener la dirección de memoria, no el valor, y * se usa para acceder al valor, no la dirección.\n\nPregunta 3: 0 de 40\nEl estudiante asigna el valor de la variable (`numero`) al puntero en lugar de su dirección (usando `&numero`), generando un error conceptual y sintáxis. El código no compilaría porque el puntero debe almacenar la dirección de memoria para modificar el valor original.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nJustificación: El estudiante afirma que un puntero almacena directamente el valor de otra variable, cuando en realidad almacena la dirección de memoria. Esto es un error conceptual fundamental.\n\nPregunta 2: 0 de 30\nJustificación: El estudiante confunde los operadores & y *; afirma que & obtiene el valor y * la dirección, pero en realidad & obtiene la dirección y * el valor.\n\nPregunta 3: 0 de 40\nJustificación: El código asigna 'numero' (int) directamente a un puntero sin usar el operador & para obtener su dirección, lo que genera un error de sintaxis. Además, la explicación del estudiante es incorrecta al afirmar que los punteros pueden recibir cualquier número entero como dirección. Recomendación: Usa el operador & en la asignación del puntero (int* puntero = &numero) para obtener la dirección de memoria válida.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Punteros en C++",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      20.0,
+      20.0
+    ],
+    "ejecuciones": [
+      [
+        10.0,
+        10.0,
+        0.0
+      ],
+      [
+        15.0,
+        10.0,
+        0.0
+      ],
+      [
+        10.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 60.0,
+    "total_medio": 21.666666666666668,
+    "desviacion": 2.3570226039551585,
+    "error_absoluto": 38.33333333333333,
+    "evaluaciones_completas": [
+      "Pregunta 1: 10 de 30\nJustificación: El estudiante explica que un puntero almacena una dirección de memoria y se utiliza para acceder indirectamente a otras variables, pero no menciona qué significa desreferenciar un puntero ni que no almacena directamente el valor de la variable apuntada.\n\nPregunta 2: 10 de 30\nJustificación: El estudiante describe los operadores & y * correctamente, pero no incluye un ejemplo como se requiere en la rúbrica.\n\nPregunta 3: 0 de 40\nJustificación: El programa solo imprime el valor del puntero sin modificar el valor original de la variable, lo que viola la solicitud del ejercicio.\n\nPuntuación final: 20",
+      "Pregunta 1: 15 de 30\nJustificación: El estudiante define correctamente que un puntero almacena una dirección de memoria, pero no explica qué significa desreferenciar un puntero (requerido en la pregunta). Esto es un error conceptual. Recomendación: Incluir una explicación del operador * para acceder al valor de la variable apuntada.\n\nPregunta 2: 10 de 30\nJustificación: El estudiante explica los operadores & y * correctamente, pero no menciona la diferencia entre una variable normal y un puntero, lo cual es esencial para responder la pregunta. Esto es un error conceptual. Recomendación: Añadir una comparación clara entre variables normales (almacenan valores) y punteros (almacenan direcciones).\n\nPregunta 3: 0 de 40\nJustificación: El programa del estudiante solo imprime el valor de la variable apuntada (*puntero) sin modificar el valor original, como se solicitó. Esto es un error conceptual. Recomendación: Agregar una instrucción de asignación como *puntero = 25 para modificar el valor de la variable original.\n\nPuntuación final: 25",
+      "Pregunta 1: 10 de 30\nEl estudiante describe correctamente que un puntero almacena una dirección de memoria, pero no explica que no almacena directamente el valor de la variable apuntada ni qué significa desreferenciar un puntero (como se requiere en la rúbrica).\n\nPregunta 2: 10 de 30\nEl estudiante explica los operadores & y * correctamente, pero no incluye el ejemplo solicitado en la pregunta, lo cual es necesario para cumplir con la completitud requerida.\n\nPregunta 3: 0 de 40\nEl programa del estudiante imprime el valor del puntero pero no modifica el valor original de la variable, como se especifica en el ejercicio. El error es conceptual porque el código es sintácticamente correcto pero no cumple con la tarea de modificar el valor.\n\nPuntuación final: 20"
+    ]
+  },
+  {
+    "tema": "Clases y objetos en Java",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada, explicando que una clase define características y comportamientos para objetos y que un objeto es una instancia concreta con valores para atributos y capacidad de ejecutar métodos.\n\nPregunta 2: 30 de 30\nEl estudiante define correctamente los atributos como variables que representan el estado (ejemplo: nombre y edad) y los métodos como funciones de comportamiento, siguiendo la descripción esperada sin omitir elementos clave.\n\nPregunta 3: 40 de 40\nEl código y la descripción del estudiante cumplen completamente con la rúbrica: define dos atributos, un constructor con parámetros, un método `mostrarInformacion` y una instancia creada en `main` con llamada al método, sin errores conceptuales ni sintácticos.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nEl estudiante explica con precisión que una clase define características y comportamientos de los objetos, y un objeto es una instancia concreta con valores para atributos y capacidad de ejecutar métodos, coincidiendo exactamente con la respuesta esperada.\n\nPregunta 2: 30 de 30\nEl estudiante describe correctamente los atributos como variables que representan el estado y los métodos como operaciones de comportamiento, incluyendo ejemplos específicos como nombre y edad, alineándose plenamente con la respuesta esperada.\n\nPregunta 3: 40 de 40\nLa clase Persona del estudiante incluye los atributos nombre y edad, un constructor con inicialización de parámetros, un método mostrarInformacion y un bloque main que crea una instancia y la utiliza, cumpliendo con todos los requisitos técnicos y conceptuales de la respuesta esperada.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada en la rúbrica: define claramente que una clase es una estructura que define características y comportamientos para objetos, y un objeto es una instancia concreta con valores para atributos y capacidad de ejecutar métodos. No hay errores conceptuales ni sintaxis.\n\nPregunta 2: 30 de 30\nEl estudiante explica con precisión que los atributos representan el estado de los objetos (ejemplo: nombre y edad) y los métodos definen comportamientos, alineándose plenamente con la respuesta esperada. No hay diferencias conceptuales ni sintácticas en su explicación.\n\nPregunta 3: 40 de 40\nEl código y la descripción del estudiante coinciden exactamente con la respuesta esperada: define atributos `nombre` y `edad`, constructor con inicialización, método `mostrarInformacion` y uso correcto de `new` en `main`. No hay errores conceptuales ni sintácticos en su implementación.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Clases y objetos en Java",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante confunde los conceptos al afirmar que \"una clase es un objeto que ya existe en memoria\" y \"un objeto es una plantilla\". La definición correcta es que una clase es una estructura de definición y un objeto es una instancia concreta creada a partir de ella. Este error conceptual invierte completamente los roles teóricos.\n\nPregunta 2: 0 de 30\nEl estudiante describe incorrectamente los atributos como \"funciones que ejecutan operaciones\" y los métodos como \"variables que almacenan información\", además afirma que ambos conceptos \"representan exactamente lo mismo\". Los atributos son variables de estado y los métodos son funciones de comportamiento, no es un error de sintaxis sino un error conceptual fundamental.\n\nPregunta 3: 0 de 40\nLa respuesta del estudiante no incluye constructor con parámetros (solo tiene un método `mostrarInformacion` sin constructor), lo que hace que el objeto se inicialice con valores predeterminados (null para `nombre` y 0 para `edad`). Además, la explicación \"Java asigna esos valores al crear cualquier objeto\" es incorrecta, ya que Java no asigna valores automáticamente sin constructor. El código también imprime `nombre + edad` como cadena concatenada (ej: \"Carlos20\") en lugar de mostrarlos por separado como se requiere.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante confunde los conceptos al afirmar que \"una clase es un objeto que ya existe en memoria\" y \"un objeto es una plantilla\". La respuesta correcta define que una clase es una estructura de definición y un objeto es una instancia concreta. Este error conceptual es fundamental y no se ajusta a la rúbrica.\n\nPregunta 2: 0 de 30\nEl estudiante invierte los roles al decir que \"los atributos son funciones\" y \"los métodos son variables\", y afirma que ambos conceptos representan \"exactamente lo mismo\". La respuesta esperada distingue claramente atributos (estado) y métodos (comportamiento), por lo que este error conceptual invalida la respuesta.\n\nPregunta 3: 0 de 40\nEl código del estudiante carece de constructor (solo tiene un método `mostrarInformacion` sin parámetros), imprime `nombre + edad` (concatenación incorrecta) y afirma que Java \"asigna automáticamente\" valores al crear objetos, lo cual es falso. La rúbrica requiere un constructor con parámetros y una implementación correcta del método para mostrar información, elementos ausentes en la respuesta.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante confunde los conceptos al afirmar que \"una clase es un objeto que ya existe en memoria\" y \"un objeto es una plantilla que define las características de todas las clases\". La rúbrica exige que una clase sea una estructura que define características y comportamientos para objetos, mientras que un objeto es una instancia concreta. Este error conceptual invierte completamente las definiciones esperadas.\n\nPregunta 2: 0 de 30\nEl estudiante describe incorrectamente los atributos como \"funciones que ejecutan operaciones\" y los métodos como \"variables que almacenan información\", además afirma que ambos conceptos \"representan exactamente lo mismo\". La rúbrica especifica que los atributos son variables que representan el estado y los métodos son funciones que definen comportamientos, por lo que este error conceptual es fundamental.\n\nPregunta 3: 0 de 40\nEl código del estudiante carece de un constructor (solo incluye un método `mostrarInformacion`), lo que impide inicializar correctamente los atributos. Además, el método imprime `nombre + edad` sin formato y el objeto se crea en `new Persona()` sin parámetros, contradiciendo la afirmación del estudiante de que \"Java asigna esos valores al crear cualquier objeto\". La rúbrica requiere un constructor con parámetros y una implementación correcta de la lógica para mostrar información.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Clases y objetos en Java",
+    "tipo": "incompleta",
+    "esperados": [
+      25.0,
+      20.0,
+      20.0
+    ],
+    "ejecuciones": [
+      [
+        25.0,
+        25.0,
+        20.0
+      ],
+      [
+        25.0,
+        25.0,
+        20.0
+      ],
+      [
+        30.0,
+        30.0,
+        20.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 65.0,
+    "total_medio": 73.33333333333333,
+    "desviacion": 4.714045207910317,
+    "error_absoluto": 8.333333333333329,
+    "evaluaciones_completas": [
+      "Pregunta 1: 25 de 30\nEl estudiante explica correctamente que una clase es una plantilla y un objeto es una instancia que utiliza características y comportamientos, pero no menciona que los objetos poseen valores específicos para los atributos de instancia ni pueden ejecutar métodos, aspectos clave en la respuesta esperada.\n\nPregunta 2: 25 de 30\nEl estudiante define atributos como almacenadores de información y métodos como acciones, pero no especifica que representan el estado y comportamiento del objeto, respectivamente, y el ejemplo dado (Automovil) no coincide con los ejemplos específicos de la respuesta esperada (nombre y edad).\n\nPregunta 3: 20 de 40\nLa clase define los atributos y constructor, pero falta implementar el método mostrarInformacion(). El código principal crea un objeto pero no invoca el método, lo que implica que el estudiante no completó la parte requerida. Recomendación: Agregar el método `mostrarInformacion()` para imprimir la información del objeto.\n\nPuntuación final: 70",
+      "Pregunta 1: 25 de 30\nEl estudiante define correctamente una clase como \"plantilla\" y un objeto como \"instancia\" que utiliza características y comportamientos, pero no menciona que los objetos poseen valores específicos para atributos de instancia ni pueden ejecutar métodos definidos por la clase, como exige la rúbrica. Este es un error de completitud conceptual, no sintaxis. Recomendación: Agregar que los objetos contienen valores propios para atributos de instancia y pueden ejecutar métodos definidos por la clase.\n\nPregunta 2: 25 de 30\nEl estudiante explica que los atributos almacenan información y los métodos realizan acciones, y usa un ejemplo válido (clase Automovil), pero no especifica que los atributos son variables declaradas dentro de la clase que representan el estado de los objetos, como indica la rúbrica. Este es un error de completitud conceptual. Recomendación: Clarificar que los atributos son variables declaradas dentro de la clase que representan el estado de los objetos.\n\nPregunta 3: 20 de 40\nEl código incluye la clase, atributos y constructor, pero falta implementar el método `mostrarInformacion` requerido por la rúbrica. Este es un error conceptual (no implementar el método solicitado), no sintaxis. Recomendación: Agregar un método `mostrarInformacion` que imprima el nombre y edad del objeto utilizando `System.out.println`.\n\nPuntuación final: 70",
+      "Pregunta 1: 30 de 30\nJustificación: El estudiante explica correctamente que una clase es una plantilla para crear objetos y un objeto es una instancia que utiliza características y comportamientos, alineándose con los conceptos clave de la respuesta esperada.\n\nPregunta 2: 30 de 30\nJustificación: El estudiante describe los atributos como almacenadores de información y los métodos como acciones, con un ejemplo concreto (clase Automovil), cumpliendo con los criterios de precisión y completitud.\n\nPregunta 3: 20 de 40\nJustificación: La clase y los atributos se definen correctamente, pero falta implementar el método para mostrar la información y llamarlo en el método main, lo que representa un error conceptual (no se incluye la funcionalidad requerida).\n\nPuntuación final: 80"
+    ]
+  },
+  {
+    "tema": "Estructura switch-case en Java",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada en términos de precisión conceptual y completitud. El estudiante describe correctamente la estructura switch-case como \"estructura de selección múltiple\" que ejecuta bloques de código dependiendo del valor de una expresión, y explica su uso para comparar expresiones con valores concretos evitando múltiples if-else.\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye todas las partes clave de la respuesta esperada: la explicación de las etiquetas case, el comportamiento de la instrucción break y el bloque default. No hay errores conceptuales ni sintaxis, y el estudiante menciona claramente que el bloque default es opcional cuando no hay coincidencia.\n\nPregunta 3: 40 de 40\nLa respuesta del estudiante proporciona un programa Java con estructura switch-case completa que incluye casos 1-7 y el bloque default. El código cumple con los requisitos de mostrar el nombre del día para números válidos y un mensaje de error para valores inválidos. Aunque el programa usa un valor fijo (`int dia = 3;`), la rúbrica considera este ejemplo como válido para ilustrar la estructura correcta, por lo que no hay errores conceptuales ni sintaxis en el código presentado.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: \"La estructura switch-case es una estructura de selección múltiple que permite ejecutar diferentes bloques de código dependiendo del valor de una expresión. Se utiliza cuando necesitamos comparar una misma expresión con diferentes valores posibles, evitando escribir múltiples instrucciones if-else cuando los casos son concretos\".\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye todas las partes clave de la respuesta esperada: \"Cada etiqueta case representa un valor que puede coincidir con la expresión evaluada. Cuando existe una coincidencia, se ejecutan las instrucciones correspondientes. La instrucción break termina la ejecución del switch y evita continuar con los siguientes casos. El bloque default se ejecuta cuando ningún case coincide y es opcional\".\n\nPregunta 3: 40 de 40\nEl código proporcionado por el estudiante es idéntico al esperado en la rúbrica, incluyendo la lógica completa para evaluar días de la semana del 1 al 7 con mensajes de error para valores inválidos. La descripción adicional también coincide con los criterios esperados: \"El programa evalúa el valor de dia y ejecuta el bloque del case correspondiente. Cada break evita continuar con otros casos y default permite manejar números fuera del intervalo del 1 al 7\". No hay errores conceptuales ni sintaxis en la respuesta.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: \"La estructura switch-case es una estructura de selección múltiple que permite ejecutar diferentes bloques de código dependiendo del valor de una expresión. Se utiliza cuando necesitamos comparar una misma expresión con diferentes valores posibles, evitando escribir múltiples instrucciones if-else cuando los casos son concretos.\"\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: \"Cada etiqueta case representa un valor que puede coincidir con la expresión evaluada. Cuando existe una coincidencia, se ejecutan las instrucciones correspondientes. La instrucción break termina la ejecución del switch y evita continuar con los siguientes casos. El bloque default se ejecuta cuando ningún case coincide y es opcional.\"\n\nPregunta 3: 40 de 40\nEl código del estudiante es idéntico al esperado: define una clase `Dias` con `main` que evalúa `dia` en `switch`, incluye casos 1-7 con mensajes de día y `break`, y el bloque `default` para números inválidos. El programa cumple la funcionalidad requerida y sigue la estructura especificada en la rúbrica.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Estructura switch-case en Java",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante describe switch-case como una estructura repetitiva (más asociada a ciclos) y menciona que repite instrucciones, cuando en realidad es una estructura de selección múltiple que ejecuta bloques de código según el valor de una expresión.\n\nPregunta 2: 0 de 30\nLa instrucción break se describe como repitiendo el caso actual indefinidamente (error conceptual: break termina el switch), y default se menciona como ejecuándose antes de evaluar otros casos (error conceptual: default se ejecuta cuando ningún case coincide).\n\nPregunta 3: 0 de 40\nEl programa no incluye break después de cada case, lo que hace que el código \"caiga\" en los siguientes casos (ej: si dia=3, se imprime Lunes, Martes y Miércoles antes de default). Además, el programa solo maneja días 1-3 en lugar de 1-7.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante describe switch-case como una estructura \"repetitiva\" que ejecuta código mientras una condición sea verdadera, lo cual es un error conceptual. La estructura switch-case es de selección múltiple, no repetitiva, y su función no es repetir instrucciones sino ejecutar bloques específicos según valores.\n\nPregunta 2: 0 de 30\nEl estudiante afirma que \"break\" repite el caso actual indefinidamente y que \"default\" se ejecuta antes de evaluar los demás casos, lo cual es incorrecto. En Java, break termina la ejecución del switch y default solo se ejecuta si ningún case coincide (después de todos los casos).\n\nPregunta 3: 0 de 40\nEl código del estudiante omite las instrucciones break en cada case, causando que el programa imprima dos mensajes para dia=3 (Miércoles y \"Número inválido\") y no cubre los días 4-7. Además, su explicación confunde la ejecución del switch: Java no detiene automáticamente el switch sin break, sino que cae a los casos siguientes.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante describe switch-case como \"estructura repetitiva\" y \"ejecuta un bloque de código mientras una condición sea verdadera\", lo cual es incorrecto. La estructura switch-case es de selección múltiple, no repetitiva, y no se relaciona con condiciones verdaderas como los bucles. La descripción de \"repetir instrucciones una cantidad determinada de veces\" corresponde a estructuras de repetición (ej.: for, while), no a switch-case.\n\nPregunta 2: 0 de 30\nLa instrucción break se describe como \"repetir el case actual indefinidamente\", lo cual es un error conceptual (break termina el switch, no repite casos). Además, el estudiante afirma que \"default se ejecuta siempre antes de evaluar los demás casos\", pero en realidad, default se ejecuta solo cuando ningún case coincide y después de evaluar todos los casos.\n\nPregunta 3: 0 de 40\nEl código no incluye instrucciones break después de cada case, causando que el programa \"caiga por casos\" (fall-through). Por ejemplo, si `dia=3`, se imprimirá \"Miércoles\" y luego \"Número inválido\" (por default), en lugar de detenerse en el caso correcto. El estudiante afirma que \"el programa solamente ejecutará el case 3\", pero sin breaks, Java no detiene la ejecución tras un match, lo que invalida su explicación. Además, el código solo cubre días 1-3, no 1-7 como se requiere.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Estructura switch-case en Java",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      20.0,
+      30.0
+    ],
+    "ejecuciones": [
+      [
+        20.0,
+        20.0,
+        0.0
+      ],
+      [
+        25.0,
+        20.0,
+        20.0
+      ],
+      [
+        20.0,
+        15.0,
+        20.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 70.0,
+    "total_medio": 53.333333333333336,
+    "desviacion": 10.274023338281628,
+    "error_absoluto": 16.666666666666664,
+    "evaluaciones_completas": [
+      "Pregunta 1: 20 de 30\nEl estudiante menciona que switch-case es una estructura de selección que ejecuta instrucciones dependiendo del valor de una variable o expresión, pero no incluye la parte clave sobre evitar múltiples if-else cuando los casos son concretos, lo cual es necesario para cumplir con la completitud requerida.\n\nPregunta 2: 20 de 30\nEl estudiante explica correctamente que los case representan valores a evaluar y que break termina la ejecución al encontrar una coincidencia, pero omite el bloque default, que es esencial para manejar casos no coincidentes y es opcional según la rúbrica.\n\nPregunta 3: 0 de 40\nEl código no incluye el bloque default para manejar números fuera del rango 1-7, por lo que no muestra el mensaje de error requerido. Aunque el estudiante reconoce el problema en su descripción, el código sigue siendo incorrecto porque carece de la implementación obligatoria del default.\n\nPuntuación final: 40",
+      "Pregunta 1: 25 de 30\nJustificación: El estudiante describe correctamente que switch-case es una estructura de selección para ejecutar instrucciones según el valor de una variable o expresión, pero no menciona su utilidad para evitar múltiples if-else cuando los casos son concretos. Esto es un error conceptual. Se recomienda incluir el aspecto de comparación múltiple con valores específicos para evitar estructuras anidadas de if-else.\n\nPregunta 2: 20 de 30\nJustificación: El estudiante explica que los case representan valores a evaluar y que el break termina la ejecución al encontrar una coincidencia, pero omite el bloque default, que es opcional y se ejecuta cuando ningún caso coincide. Esto es un error conceptual. Se recomienda mencionar explícitamente el bloque default y su función para casos no coincidentes.\n\nPregunta 3: 20 de 40\nJustificación: El programa del estudiante incluye casos para días 1-7 pero no tiene un bloque default para manejar números fuera del rango 1-7, lo que constituye un error conceptual. Se recomienda añadir un bloque default con un mensaje de error para valores no comprendidos en el rango.\n\nPuntuación final: 65",
+      "Pregunta 1: 20 de 30\nEl estudiante describe correctamente que switch-case es una estructura de selección que ejecuta instrucciones dependiendo del valor de una variable o expresión, pero no menciona el uso específico de evitar múltiples instrucciones if-else cuando los casos son concretos, lo cual es necesario para completitud.\n\nPregunta 2: 15 de 30\nEl estudiante explica que los case representan valores a evaluar y que break termina la ejecución al encontrar una coincidencia, pero omite mencionar el bloque default, que se ejecuta cuando ningún caso coincide y es opcional, lo cual es un error conceptual en la descripción completa.\n\nPregunta 3: 20 de 40\nEl código del estudiante funciona para números válidos (1-7) pero no incluye el bloque default para manejar números inválidos, lo que es un error conceptual. La recomendación es añadir un bloque default con un mensaje de error para valores fuera del rango 1-7.\n\nPuntuación final: 55"
+    ]
+  },
+  {
+    "tema": "Funciones en Python",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: define una función como \"bloque de código reutilizable que realiza una tarea específica\", menciona la palabra clave `def` y enumera las ventajas (reutilización, reducción de duplicaciones, pruebas, legibilidad y separación de responsabilidades).\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye con precisión la diferencia entre parámetros y argumentos, y explica correctamente que `return` devuelve un valor y termina la ejecución, mientras que `print` solo muestra información en la salida estándar sin sustituir la devolución de valor.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante cumplen con los requisitos: verifica si la lista está vacía para evitar división entre cero, devuelve `None` en ese caso y calcula el promedio correctamente con `sum` y `len`. No hay errores conceptuales ni sintaxis.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: describe correctamente una función como \"bloque de código reutilizable que realiza una tarea específica\", menciona la palabra clave `def` para su definición en Python y enumera todas las ventajas esperadas (reutilización, reducción de duplicaciones, pruebas, legibilidad y separación de responsabilidades).\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante detalla con precisión la diferencia entre parámetros (variables en la definición) y argumentos (valores en la invocación), y explica claramente que `return` devuelve un valor y termina la ejecución, mientras que `print` solo muestra información en la salida estándar sin sustituir la devolución de valor.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante cumplen con todos los criterios: verifica si la lista está vacía para evitar división por cero, devuelve `None` en ese caso y calcula el promedio correctamente usando `sum` y `len`. No hay errores conceptuales ni sintácticos en la implementación.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la respuesta esperada: define claramente una función como bloque reutilizable con def, y menciona todas las ventajas esperadas (reutilización, reducción de duplicaciones, pruebas, legibilidad y separación de responsabilidades).\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante describe correctamente la diferencia entre parámetros y argumentos, y explica con precisión cómo funciona return (devuelve valor y termina ejecución) versus print (muestra en stdout sin devolver valor).\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante cumplen con los requisitos: verifica lista vacía para evitar división entre cero, devuelve None en ese caso, y calcula el promedio correctamente con sum() y len(). No hay errores conceptuales ni sintaxis.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Funciones en Python",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"una función es una estructura que solamente permite ejecutar código una vez y no puede recibir datos externos ni reutilizarse\", lo cual contradice la definición esperada (reutilizable y capaz de recibir datos). Este es un error conceptual fundamental, ya que las funciones en Python sí permiten reutilización y reciben datos externos mediante argumentos.\n\nPregunta 2: 0 de 30\nEl estudiante confunde parámetros y argumentos (\"parámetros son los valores enviados al llamar una función y argumentos son las variables en su definición\"), y afirma que \"return y print son equivalentes porque ambos muestran el resultado en pantalla\". Esto es incorrecto: los parámetros son variables en la definición, los argumentos son valores en la llamada; además, return devuelve un valor al llamador y print solo muestra en consola sin afectar el flujo.\n\nPregunta 3: 0 de 40\nLa función del estudiante realiza \"sum(numeros) / 0\" sin verificar si la lista está vacía, lo cual genera una división por cero en cualquier caso. La rúbrica exige validar la lista vacía para evitar errores, pero el estudiante omite este caso crítico y afirma que \"obtiene el resultado independientemente de la cantidad de elementos\", lo que es un error conceptual en la lógica de la función.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"una función es una estructura que solamente permite ejecutar código una vez y no puede recibir datos externos ni reutilizarse\". Esto es incorrecto porque las funciones en Python pueden recibir datos externos (a través de parámetros) y son reutilizables, no solo ejecutarse una vez. El error conceptual es fundamental y contradice la definición esperada.\n\nPregunta 2: 0 de 30\nEl estudiante confunde parámetros y argumentos, indicando que \"los parámetros son los valores enviados al llamar una función y los argumentos son las variables que aparecen en su definición\". Además, afirma que \"return y print son equivalentes porque ambos muestran el resultado en pantalla\", lo cual es falso: return devuelve un valor al código que llamó a la función y termina su ejecución, mientras que print solo muestra información en la salida estándar sin afectar la devolución de valor.\n\nPregunta 3: 0 de 40\nEl estudiante implementa `return sum(numeros) / 0`, lo cual genera una división por cero sin verificar si la lista está vacía. Esto causa un error `ZeroDivisionError` en cualquier caso, ya que no hay comprobación para evitar la división por cero cuando la lista es vacía. La solución correcta debe incluir una validación previa para manejar el caso de lista vacía.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante afirma que \"una función... no puede recibir datos externos ni reutilizarse\", lo cual contradice la definición correcta de funciones como bloques reutilizables que pueden recibir datos.\n\nPregunta 2: 0 de 30\nEl estudiante confunde parámetros y argumentos, indicando que \"los parámetros son los valores enviados al llamar una función\" y \"los argumentos son las variables que aparecen en su definición\". Además, afirma que \"return y print son equivalentes porque ambos muestran el resultado en pantalla\", ignorando que return devuelve un valor al código llamador y print solo muestra en pantalla.\n\nPregunta 3: 0 de 40\nLa función del estudiante realiza \"sum(numeros) / 0\", lo cual genera una división por cero independientemente de si la lista está vacía o no, sin verificar la longitud de la lista como se requiere.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Funciones en Python",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      20.0,
+      25.0
+    ],
+    "ejecuciones": [
+      [
+        20.0,
+        15.0,
+        20.0
+      ],
+      [
+        10.0,
+        20.0,
+        20.0
+      ],
+      [
+        15.0,
+        15.0,
+        20.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 65.0,
+    "total_medio": 51.666666666666664,
+    "desviacion": 2.3570226039551585,
+    "error_absoluto": 13.333333333333336,
+    "evaluaciones_completas": [
+      "Pregunta 1: 20 de 30\nEl estudiante menciona que las funciones son bloques de código reutilizables que realizan tareas, pero no incluye la palabra clave `def` para definir funciones en Python ni las ventajas específicas como reducir duplicaciones, facilitar pruebas, mejorar legibilidad o separar responsabilidades. Error conceptual. Recomendación: Incluir la palabra clave `def` y especificar al menos dos ventajas adicionales.\n\nPregunta 2: 15 de 30\nEl estudiante define correctamente los parámetros y argumentos, pero no explica la diferencia entre `return` (que termina la ejecución de la función y devuelve un valor) y `print` (que solo muestra información en la salida estándar sin devolver un valor). Error conceptual. Recomendación: Especificar que `return` finaliza la ejecución de la función y `print` no devuelve un valor.\n\nPregunta 3: 20 de 40\nEl estudiante no contempla el caso de lista vacía, lo que causaría una división por cero. La solución correcta debe verificar si la lista está vacía y devolver `None` en ese caso. Error conceptual. Recomendación: Agregar una condición para verificar si la lista está vacía y devolver `None`.\n\nPuntuación final: 55",
+      "Pregunta 1: 10 de 30\nEl estudiante menciona que una función es un bloque de código que realiza una tarea y puede reutilizarse, pero no incluye la palabra clave 'def' para definir funciones en Python ni lista las ventajas adicionales como reducir duplicaciones, facilitar pruebas, mejorar legibilidad o separar responsabilidades. Este es un error conceptual, ya que la definición en Python requiere la palabra clave 'def' y las ventajas son específicas. Recomendación: Incluir la palabra clave 'def' y listar las ventajas mencionadas en la rúbrica.\n\nPregunta 2: 20 de 30\nEl estudiante define correctamente los parámetros y argumentos, pero no menciona que el return termina la ejecución de la función ni la diferencia específica entre print y return (que print no sustituye la devolución de valor). Este es un error conceptual, ya que la descripción de return debe incluir su efecto en la ejecución y la diferencia con print. Recomendación: Añadir que el return termina la ejecución de la función y que print solo muestra información sin devolver un valor.\n\nPregunta 3: 20 de 40\nLa función implementada por el estudiante no contempla el caso de lista vacía, lo que generaría una división entre cero, pero correctamente identifica el problema. Este es un error conceptual (no se verifica la lista vacía), aunque el código es sintácticamente correcto. Recomendación: Agregar una condición para que la función retorne None si la lista está vacía.\n\nPuntuación final: 50",
+      "Pregunta 1: 15 de 30\nEl estudiante menciona que una función es un bloque de código que realiza una tarea y puede reutilizarse, pero no incluye la palabra clave 'def' ni las ventajas adicionales como reducir duplicaciones, facilitar pruebas, mejorar legibilidad o separar responsabilidades.\n\nPregunta 2: 15 de 30\nEl estudiante define correctamente los parámetros y argumentos, pero no explica la diferencia entre 'return' y 'print', que es un requisito de la respuesta esperada.\n\nPregunta 3: 20 de 40\nEl estudiante implementa la función sin verificar si la lista está vacía, lo que causaría división entre cero, pero correctamente identifica el problema. La solución esperada incluye el chequeo de lista vacía para evitar este error.\n\nPuntuación final: 50"
+    ]
+  },
+  {
+    "tema": "Arreglos en C++",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: \"Un arreglo es una estructura de datos que permite almacenar varios elementos del mismo tipo en posiciones consecutivas de memoria. En un arreglo tradicional de tamaño fijo, la cantidad de elementos se determina al declararlo y sus posiciones se identifican mediante índices.\"\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye todos los elementos clave de la respuesta esperada: \"Los elementos se consultan utilizando el nombre del arreglo seguido de un índice entre corchetes. En C++ los índices comienzan en cero, por lo que un arreglo de cinco elementos tiene posiciones desde 0 hasta 4. Es importante respetar esos límites porque acceder fuera del rango válido produce comportamiento indefinido.\"\n\nPregunta 3: 40 de 40\nEl código del estudiante es idéntico al esperado: declara correctamente un arreglo de cinco enteros, usa un ciclo for para calcular la suma desde el índice 0 hasta 4, y muestra el resultado 30. No hay errores conceptuales ni sintaxis en la implementación.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: \"Un arreglo es una estructura de datos que permite almacenar varios elementos del mismo tipo en posiciones consecutivas de memoria. En un arreglo tradicional de tamaño fijo, la cantidad de elementos se determina al declararlo y sus posiciones se identifican mediante índices.\"\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye todos los elementos clave de la respuesta esperada: acceso mediante nombre del arreglo y índice en corchetes, inicio de índices en cero para arreglos de cinco elementos (posiciones 0-4) y explicación sobre comportamiento indefinido al exceder los límites.\n\nPregunta 3: 40 de 40\nEl código del estudiante es idéntico al esperado: declara correctamente un arreglo de cinco enteros, utiliza un ciclo for que recorre índices 0-4, calcula la suma correctamente y muestra el resultado 30. La explicación adicional \"El arreglo contiene cinco enteros...\" coincide con la descripción esperada. No hay errores conceptuales ni sintaxis en la solución presentada.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nEl estudiante escribió exactamente la definición esperada: \"Un arreglo es una estructura de datos que permite almacenar varios elementos del mismo tipo en posiciones consecutivas de memoria. En un arreglo tradicional de tamaño fijo, la cantidad de elementos se determina al declararlo y sus posiciones se identifican mediante índices.\"\n\nPregunta 2: 30 de 30\nEl estudiante escribió exactamente la explicación esperada: \"Los elementos se consultan utilizando el nombre del arreglo seguido de un índice entre corchetes. En C++ los índices comienzan en cero, por lo que un arreglo de cinco elementos tiene posiciones desde 0 hasta 4. Es importante respetar esos límites porque acceder fuera del rango válido produce comportamiento indefinido.\"\n\nPregunta 3: 40 de 40\nEl estudiante escribió un programa completo que cumple con todos los requisitos: declara correctamente un arreglo de cinco enteros, calcula la suma mediante un ciclo for que recorre los índices del 0 al 4, y muestra el resultado (30). El código y la explicación adicional coinciden exactamente con la respuesta esperada. No hay errores conceptuales ni sintaxis.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Arreglos en C++",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante menciona que los arreglos almacenan elementos de \"diferentes tipos de datos\" (deberían ser del mismo tipo), \"posiciones aleatorias de memoria\" (deberían ser consecutivas) y \"tamaño cambia automáticamente\" (debería ser fijo al declararlo), lo que representa un error conceptual. Recomendación: Explicar que los arreglos en C++ almacenan elementos homogéneos, en memoria contigua y con tamaño fijo al declararlos.\n\nPregunta 2: 0 de 30\nEl estudiante afirma que los arreglos comienzan en el índice 1 (deberían comenzar en 0) y que acceder fuera del arreglo no produce problemas (debería producir comportamiento indefinido), lo que es un error conceptual. Recomendación: Los índices en C++ comienzan en 0 y acceder fuera de los límites produce comportamiento indefinido.\n\nPregunta 3: 0 de 40\nEl estudiante usa la condición \"i <= 5\" en el ciclo, lo que accede a la posición 5 (invalida para un arreglo de 5 elementos, que tiene índices 0-4), y omite la cadena \"Suma: \" en el mensaje de salida. Esto es un error conceptual. Recomendación: Corregir la condición del ciclo a \"i < 5\" y agregar la cadena \"Suma: \" antes de imprimir el resultado.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante menciona que los arreglos almacenan elementos de \"diferentes tipos de datos\", tienen \"posiciones aleatorias de memoria\" y \"tamaño cambia automáticamente\", lo cual contradice las características de los arreglos en C++ (homogéneos, memoria consecutiva y tamaño fijo). Recomendación: Asegurar que los elementos sean del mismo tipo y que el tamaño sea definido al declarar el arreglo.\n\nPregunta 2: 0 de 30\nEl estudiante afirma que los arreglos comienzan en el índice 1 y que \"acceder a cualquier posición fuera del arreglo no produce problemas\", lo cual es un error conceptual ya que en C++ los índices comienzan en 0 y el acceso fuera de los límites genera comportamiento indefinido. Recomendación: Usar índices desde 0 y validar que las operaciones no excedan el rango del arreglo.\n\nPregunta 3: 0 de 40\nEl estudiante indica que \"el último índice válido de un arreglo de cinco elementos es 5\" y su ciclo for tiene la condición `i <= 5`, lo cual genera acceso fuera de los límites (índices válidos 0-4). Recomendación: Cambiar la condición del ciclo a `i < 5` para evitar accesos no válidos.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nJustificación: El estudiante menciona que los arreglos almacenan elementos de diferentes tipos de datos, en posiciones aleatorias de memoria y con tamaño que cambia automáticamente, lo cual es incorrecto ya que en C++ los arreglos son homogéneos (mismo tipo), almacenados en posiciones consecutivas y tienen tamaño fijo al declararse.\n\nPregunta 2: 0 de 30\nJustificación: El estudiante afirma que los arreglos comienzan en el índice 1 y que acceder fuera del rango no produce problemas, cuando en C++ los índices comienzan en 0 y acceder fuera del rango causa comportamiento indefinido.\n\nPregunta 3: 0 de 40\nJustificación: El estudiante escribió un ciclo for con condición `i <= 5`, lo que hace que se acceda a `numeros[5]` (fuera de los límites válidos 0-4), y afirma que el último índice válido es 5, cuando en realidad es 4. Esto es un error conceptual en el manejo de índices, no un error de sintaxis.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Arreglos en C++",
+    "tipo": "incompleta",
+    "esperados": [
+      20.0,
+      20.0,
+      30.0
+    ],
+    "ejecuciones": [
+      [
+        20.0,
+        15.0,
+        30.0
+      ],
+      [
+        20.0,
+        15.0,
+        30.0
+      ],
+      [
+        20.0,
+        15.0,
+        30.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 70.0,
+    "total_medio": 65.0,
+    "desviacion": 0.0,
+    "error_absoluto": 5.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 20 de 30\nEl estudiante menciona correctamente que los arreglos almacenan elementos del mismo tipo y permiten acceso mediante índices, pero no incluye la característica de almacenamiento en posiciones consecutivas de memoria ni el tamaño fijo determinado al declararlo.\n\nPregunta 2: 15 de 30\nEl estudiante explica cómo acceder a elementos (nombre del arreglo y índice) y menciona la importancia de no acceder a posiciones inexistentes, pero no especifica que los índices comienzan en cero ni que el acceso fuera de límites produce comportamiento indefinido.\n\nPregunta 3: 30 de 40\nEl código calcula correctamente la suma de los elementos, pero no incluye la instrucción std::cout para mostrar el resultado en pantalla, lo que representa un error de completitud en la implementación. Recomendación: Agregar `std::cout << \"Suma: \" << suma;` al final del programa para visualizar el resultado.\n\nPuntuación final: 65",
+      "Pregunta 1: 20 de 30\nEl estudiante menciona que almacena elementos del mismo tipo y permite acceso mediante índices, pero no incluye \"posiciones consecutivas de memoria\" ni \"tamaño fijo\" como en la respuesta esperada. Esto es un error conceptual. Recomendación: Añade que los arreglos en C++ almacenan elementos en posiciones consecutivas de memoria y tienen tamaño fijo al declararse.\n\nPregunta 2: 15 de 30\nEl estudiante explica cómo acceder a elementos pero no especifica que los índices comienzan en cero ni que el acceso fuera de los límites produce comportamiento indefinido. Esto es un error conceptual. Recomendación: Menciona explícitamente que los índices comienzan en cero y que acceder fuera de los límites causa comportamiento indefinido.\n\nPregunta 3: 30 de 40\nEl programa calcula correctamente la suma pero no muestra el resultado en pantalla, como se requiere en la pregunta. Esto es un error conceptual (falta de salida). Recomendación: Agrega una instrucción std::cout para mostrar el resultado.\n\nPuntuación final: 65",
+      "Pregunta 1: 20 de 30\nEl estudiante menciona correctamente que un arreglo almacena elementos del mismo tipo y permite acceso mediante índices, pero omite detalles clave como \"posiciones consecutivas de memoria\" y \"tamaño fijo\" que son parte de la definición esperada.\n\nPregunta 2: 15 de 30\nEl estudiante explica cómo acceder a elementos mediante el nombre del arreglo y el índice, pero no especifica que los índices comienzan en cero ni menciona que acceder fuera del rango produce comportamiento indefinido.\n\nPregunta 3: 30 de 40\nEl código calcula correctamente la suma de los elementos pero no incluye la instrucción std::cout para mostrar el resultado, como se señala explícitamente en la respuesta del estudiante.\n\nPuntuación final: 65"
+    ]
+  },
+  {
+    "tema": "Herencia en Java",
+    "tipo": "correcta",
+    "esperados": [
+      30.0,
+      30.0,
+      40.0
+    ],
+    "ejecuciones": [
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ],
+      [
+        30.0,
+        30.0,
+        40.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 100.0,
+    "total_medio": 100.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: menciona la reutilización y especialización de características y comportamientos, la palabra clave `extends` para implementar herencia en Java, el término \"subclase\" y \"superclase\", y la restricción de herencia directa de una sola clase. No hay errores conceptuales ni sintaxis.\n\nPregunta 2: 30 de 30\nLa respuesta del estudiante incluye con precisión la explicación de `this` (objeto actual), `super` (acceso a superclase y constructor), y la sobrescritura con las reglas de compatibilidad de firma y tipo de retorno, además de la anotación `@Override`. Cumple todos los criterios de la rúbrica sin omisiones.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante coinciden íntegramente con la respuesta esperada: clase `Animal` con método `hacerSonido`, herencia `Perro extends Animal`, sobrescritura con `@Override`, y el método `main` que demuestra el comportamiento. No hay errores conceptuales ni sintaxis.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante coincide exactamente con la descripción esperada: define la herencia como mecanismo de reutilización y especialización, menciona la palabra clave `extends`, identifica correctamente subclase/superclase y explica la herencia directa única en Java.\n\nPregunta 2: 30 de 30\nEl estudiante describe con precisión el significado de `this` y `super`, explica la sobrescritura respetando las reglas de compatibilidad y menciona explícitamente la anotación `@Override`, coincidiendo totalmente con la respuesta esperada.\n\nPregunta 3: 40 de 40\nEl código y la explicación del estudiante son idénticos a la respuesta esperada: implementa correctamente `Animal` y `Perro` con herencia, sobrescritura mediante `@Override` y una `main` que ejecuta el método especializado. No hay errores conceptuales ni sintácticos.\n\nPuntuación final: 100",
+      "Pregunta 1: 30 de 30\nLa respuesta del estudiante describe con precisión la herencia en OOP, menciona la palabra clave `extends` para su implementación en Java, define correctamente subclase y superclase, y señala que Java permite herencia directa de una sola clase, coincidiendo exactamente con la respuesta esperada.\n\nPregunta 2: 30 de 30\nEl estudiante explica con claridad que `this` hace referencia al objeto actual, `super` accede a miembros de la superclase y llama al constructor, y describe la sobrescritura respetando las reglas de compatibilidad de firma y tipo de retorno, incluyendo la anotación `@Override`, coincidiendo plenamente con la respuesta esperada.\n\nPregunta 3: 40 de 40\nEl código del estudiante incluye las clases `Animal` y `Perro` con el método `hacerSonido` sobrescrito usando `@Override`, el método `main` para crear un objeto `Perro` y ejecutar el método, y la explicación detallada de la herencia y sobrescritura, coincidiendo exactamente con la respuesta esperada. No hay errores conceptuales ni sintáxis.\n\nPuntuación final: 100"
+    ]
+  },
+  {
+    "tema": "Herencia en Java",
+    "tipo": "incorrecta",
+    "esperados": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ejecuciones": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 0.0,
+    "total_medio": 0.0,
+    "desviacion": 0.0,
+    "error_absoluto": 0.0,
+    "evaluaciones_completas": [
+      "Pregunta 1: 0 de 30\nEl estudiante confunde la palabra clave implements (para interfaces) con extends (para herencia), menciona herencia múltiple (no permitida en Java) y describe el objetivo como duplicar código (en realidad reutiliza código).\n\nPregunta 2: 0 de 30\n\"this\" se describe como representar la clase padre (en realidad el objeto actual), \"super\" como el objeto actual (en realidad accede a la superclase) y la sobrescritura se define como crear un método con nombre diferente (en realidad sobrescribe el método heredado con la misma firma).\n\nPregunta 3: 0 de 40\nLa clase Perro no hereda de Animal (falta la palabra clave extends) y la explicación indica que la herencia ocurre por tener el mismo método, lo cual es incorrecto (requiere extends y sobrescritura con @Override).\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nEl estudiante menciona que la herencia en Java utiliza la palabra clave `implements` (correcto para interfaces, no para herencia) y afirma que su objetivo es \"duplicar el código\", lo cual contradice la definición de herencia (reutilización, no duplicación). Esto representa un error conceptual fundamental.\n\nPregunta 2: 0 de 30\nEl estudiante confunde `this` (que representa al objeto actual) con la clase padre y `super` (que accede a la superclase) con el objeto actual. Además, define la sobrescritura como crear un método con \"nombre completamente diferente\", cuando en realidad requiere mantener el mismo nombre y firma.\n\nPregunta 3: 0 de 40\nLa clase `Perro` no hereda de `Animal` (falta `extends Animal`), lo que hace inválido el código. El comentario afirma que la herencia ocurre \"porque ambas tienen un método con el mismo nombre\", ignorando que la herencia se implementa mediante `extends`, no por coincidencia de nombres.\n\nPuntuación final: 0",
+      "Pregunta 1: 0 de 30\nLa respuesta del estudiante menciona que Java utiliza la palabra clave `implements` para heredar de varias clases, lo cual es incorrecto (en Java, `implements` se usa para interfaces, no para herencia de clases). Además, afirma que el objetivo es \"duplicar el código\", cuando la herencia en realidad reutiliza código. Esto representa un error conceptual fundamental.\n\nPregunta 2: 0 de 30\nEl estudiante confunde los roles de `this` y `super`, indicando que `this` representa la clase padre y `super` el objeto actual. Además, describe la sobrescritura como crear un método con \"nombre completamente diferente\", cuando en realidad requiere el mismo nombre que el método heredado. Es un error conceptual grave en los conceptos básicos.\n\nPregunta 3: 0 de 40\nEl código del estudiante no incluye `extends Animal` en la clase `Perro`, por lo que no hay herencia. La explicación del estudiante afirma que \"Perro hereda automáticamente de Animal porque ambas tienen un método con el mismo nombre\", lo cual es incorrecto (la herencia requiere la palabra clave `extends`, no la coincidencia de nombres de métodos). Esto es un error conceptual y sintáxis.\n\nPuntuación final: 0"
+    ]
+  },
+  {
+    "tema": "Herencia en Java",
+    "tipo": "incompleta",
+    "esperados": [
+      25.0,
+      20.0,
+      30.0
+    ],
+    "ejecuciones": [
+      [
+        20.0,
+        20.0,
+        30.0
+      ],
+      [
+        25.0,
+        20.0,
+        30.0
+      ],
+      [
+        25.0,
+        20.0,
+        30.0
+      ]
+    ],
+    "ejecuciones_sin_formato": 0,
+    "total_esperado": 75.0,
+    "total_medio": 73.33333333333333,
+    "desviacion": 2.3570226039551585,
+    "error_absoluto": 1.6666666666666714,
+    "evaluaciones_completas": [
+      "Pregunta 1: 20 de 30\nEl estudiante menciona correctamente que la herencia permite reutilizar características y métodos de otra clase y utiliza la palabra clave `extends` en Java. Sin embargo, no incluye términos clave como \"subclase\" y \"superclase\", ni menciona que Java permite herencia directa de una sola clase.\n\nPregunta 2: 20 de 30\nEl estudiante explica adecuadamente que `this` hace referencia al objeto actual y que `super` permite acceder a elementos de la clase padre, y describe que la sobrescritura cambia el comportamiento de un método heredado. No aborda las reglas de compatibilidad de firma y tipo de retorno ni menciona la anotación `@Override`.\n\nPregunta 3: 30 de 40\nLa implementación de `Perro` hereda correctamente de `Animal` y sobrescribe el método `hacerSonido`, pero no utiliza la anotación `@Override` para indicar explícitamente la sobrescritura. Esto es un error conceptual ya que la rúbrica exige la anotación para precisar la sobrescritura. Recomendación: añadir `@Override` en la declaración del método en `Perro`.\n\nPuntuación final: 70",
+      "Pregunta 1: 25 de 30\nEl estudiante correctamente identifica que la herencia permite reutilizar características y métodos de otra clase y menciona que en Java se utiliza `extends` para heredar. Sin embargo, no incluye términos clave como \"subclase\", \"superclase\" ni la noción de \"especialización\" (como en la respuesta esperada), lo que reduce la completitud conceptual.\n\nPregunta 2: 20 de 30\nEl estudiante explica adecuadamente que `this` hace referencia al objeto actual y `super` accede a elementos de la clase padre, pero omite que `super` también permite llamar al constructor de la superclase y no menciona la anotación `@Override` para indicar explícitamente la sobrescritura, lo que afecta la precisión conceptual.\n\nPregunta 3: 30 de 40\nEl estudiante implementa correctamente las clases `Animal` y `Perro` y describe que hereda de `Animal` y sobrescribe `hacerSonido`, pero omite la anotación `@Override` en la sobrescritura, lo cual es requerido por la rúbrica para indicar explícitamente la sobrescritura. Este es un error conceptual (no se usa la anotación para claridad y compatibilidad), no un error de sintaxis.\n\nPuntuación final: 75",
+      "Pregunta 1: 25 de 30\nEl estudiante menciona correctamente que la herencia permite reutilizar características y métodos y que en Java se utiliza `extends`, pero no incluye términos clave como \"subclase\" y \"superclase\", ni menciona que Java permite herencia directa de una sola clase.\n\nPregunta 2: 20 de 30\nEl estudiante explica adecuadamente que `this` se refiere al objeto actual y que `super` accede a elementos de la clase padre, pero no menciona la anotación `@Override`, que es necesaria para indicar explícitamente la sobrescritura de métodos en Java.\n\nPregunta 3: 30 de 40\nEl código implementa correctamente la herencia y la sobrescritura de método, pero no utiliza la anotación `@Override`, que la rúbrica exige para indicar explícitamente la sobrescritura. El código funciona sin ella, pero la rúbrica requiere su inclusión.\n\nPuntuación final: 75"
+    ]
+  }
+]
